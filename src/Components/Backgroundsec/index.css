@@ -1,0 +1,109 @@
+@font-face {
+    font-family: myfont ;
+    src: url("//src/font/FontsFree-Net-BasisGrotesquePro-Bold.ttf");
+    
+  }
+
+.main-div{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.cover-pic{
+    margin-top: 10%;
+    background-image: url("/src/images/bg1.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    width: 90%;
+    height: 500px;
+    
+    
+}
+
+.sub-div{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: #121214;
+    border: 1px solid black;
+    color: white;
+    height: 300px;
+    position: absolute;
+    margin-left: -8%;
+    margin-top: 10%;
+    
+}
+.text-dv{
+    width: 80%;
+    margin-top: 10%;
+}
+.first-heading{
+    font-family: myfont ;
+    font-weight: bold;
+    font-size: 12px;
+}
+.second-heading{
+    font-family: myfont ;
+    font-weight: bold;
+    font-size: 25px;
+}
+.firsttxt{
+    font-family: myfont ;
+    font-weight: 300;
+    font-size: 17px;
+}
+.link{
+    font-family: myfont ;
+    font-weight: 300;
+    font-size: 17px;
+    text-decoration: underline;
+}
+@media only screen and (max-width:750px){
+    .cover-pic{
+        width: 100%;
+      background-size:100% auto;
+    }
+    .sub-div{
+        margin-top: 10%;
+         margin-left: 10%;
+     }
+    
+    }
+    @media only screen and (max-width:680px){
+        .cover-pic{
+            width: 100%;
+          background-size:100% auto;
+        }
+        .sub-div{
+           margin-top: 50%;
+            margin-left: 20%;
+        }
+       
+        
+        }
+        @media only screen and (max-width:470px){
+            .cover-pic{
+                width: 100%;
+              background-size:100% auto;
+            }
+            .sub-div{
+               margin-top: 70%;
+                margin-left: 10%;
+            }
+           
+            
+            }
+            @media only screen and (max-width:470px){
+                .cover-pic{
+                    width: 100%;
+                  background-size:100% auto;
+                }
+                .sub-div{
+                   margin-top: 70%;
+                    margin-left: 2%;
+                }
+               
+                
+                }

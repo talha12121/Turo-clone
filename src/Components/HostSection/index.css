@@ -1,0 +1,154 @@
+@font-face {
+    font-family: headingfont;
+    src: url("/src/font/Hoefler\ Text\ Black.ttf");
+  }
+  .main-headinghost{
+    font-family: headingfont;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 50px;
+    color: #121214;
+    font-weight: bold;
+    
+  }
+  @font-face {
+    font-family: myfont ;
+    src: url("//src/font/AvenirLTStd-Black.otf");
+   
+  }
+  @font-face {
+    font-family: headingfont;
+    src: url("/src/font/Hoefler\ Text\ Black.ttf");
+  }
+
+  @media only screen and (max-width:768px){
+  .main-heading1{
+    font-size:45px !important ;
+  }
+    
+  }
+  @media only screen and (max-width:450px){
+    .main-heading1{
+      font-size:35px !important ;
+    }
+      
+    }
+ 
+  /* .backdiv1{
+ 
+    width: 80%;
+    
+    margin: 0 auto;
+   text-align: center;
+   font-size: 30px;
+   color: black;
+   font-weight: bold;
+    background-color: #F2E9FF;
+    
+  } */
+  .sub-heading:before {
+    content: '';
+    background-color: #F2E9FF;
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    
+    max-width: 1400px;
+    z-index: -1;
+    bottom: -12px;
+    left: 10%;
+  
+    top: 52%;
+}
+.des{
+  margin-top: 2%;
+  font-size: 25px !important;
+}
+  .sub-heading{
+    font-family: myfont ;
+  
+    position: relative;
+   text-align: center;
+   font-size: 30px;
+   color: black;
+   
+   font-weight: bold;
+    /* background-color: #F2E9FF; */
+  }
+  @media only screen and (max-width:900px){
+    .des{
+      font-size:17px !important ;
+    }
+      
+    }
+    @media only screen and (max-width:400px){
+      .des{
+        font-size:15px !important ;
+      }
+        
+      }
+  
+  @media only screen and (max-width:870px){
+    .sub-heading{
+      font-size:30px ;
+    }
+      
+    }
+  
+    @media only screen and (max-width:580px){
+      .sub-heading{
+        font-size:20px ;
+      }
+        
+      }
+      .des{
+        font-family: myfont ;
+        color: #121214;
+        text-align: center;
+        font-weight: bold;
+        
+      }
+      .Explore{
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+      }
+      .Explorebutton{
+      font-family: myfont !important ;
+    color: white;
+    border: none;
+    background-color: #593CFB;
+    padding:8px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+      }
+      .Hostimg{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+      }
+    
+    .host-card{
+      width: 80%;
+      display: flex;
+      justify-content: center;
+    }
+    .card-txt2{
+      padding-left: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      margin: 0 auto;
+    }
+    .handsec{
+      width: 70%;
+      margin-top: 20%;
+      margin-left: 0%;
+    }
+    .host1{
+      margin-top: 20%;
+    }
+    .data-div{
+      display: flex;
+      justify-content: center;
+    }

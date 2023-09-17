@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family:myfontss;
+    src: url("//src/font/Hoefler\ Text\ Black.ttf");
+   
+  }
+  @font-face {
+    font-family:myfontssa;
+    src: url("//src/font/AvenirLTStd-Black.otf");
+   
+  }
+
+
+  .Footer{
+   
+    margin-top: 7%;
+    width: 100%;
+    padding-top: 5%;
+    background-color: #F4F4F4;
+}
+  .list-heading{
+    font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif; ;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    
+  }
+  .list-heading:hover{
+    
+    cursor: pointer !important;
+  }
+
+  .footerlist:hover{
+    background-color: transparent;
+   
+  }
+.footerlist{
+    font-size: 14px;
+    font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif; ;
+    padding-left: 1.1rem !important;
+    font-weight: 500 !important;
+}
+.youtube-icon{
+    margin-top: 10%;
+}

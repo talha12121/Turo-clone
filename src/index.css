@@ -1,0 +1,270 @@
+body{
+  margin: 0;
+  padding: 0;
+
+  overflow-y: unset !important;
+  width: 100% !important;
+}
+@font-face {
+  font-family: myfont ;
+  src: url("./font/FontsFree-Net-BasisGrotesquePro-Regular.ttf");
+ 
+}
+
+
+.alert{
+  
+  border-radius: 0px !important;
+  font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;;
+  color: #414143 !important;
+  background-color: #F4F4F4 !important ;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  width: 100% !important;
+  border: 1px solid lightgray !important;
+
+  cursor: pointer;
+}
+@media only screen and (max-width:750px){
+  .alert{
+    font-size: 12px !important;
+  }
+ 
+  
+  }
+.alert:hover{
+  color:#898989 !important ;
+}
+.NavBar{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1%;
+  text-align: center;
+  width: 95%;
+  background-color: white;
+}
+.log{
+  border: 1px solid black;
+}
+a{
+  color: #59595B !important;
+text-decoration: none !important;
+font-size: 18px ;
+font-family: myfont, Helvetica, sans-serif ;
+font-weight: 200;
+}
+a:hover{
+  color: #59595B !important;
+
+}
+.hostbutton{
+  margin-top: 10%;
+  color: #414143;
+  font-family: myfont, Helvetica, sans-serif ;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid #414143 !important;
+  background-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  
+}
+.hostbutton:hover{
+  background-color: #E7E7E8;
+  color: #414143;
+}
+.logo-img{
+  width: 100px;
+
+}
+.icon{
+  font-family: myfont,Helvetica, sans-serif !important;
+  letter-spacing: 100px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #59595B !important;
+  margin-top:1.5%;
+
+}
+
+
+
+.bar{
+   margin-top: 0.3%;
+  display: flex;
+  justify-content: space-between;
+}
+.Hero-sec{
+ 
+  width: 100%;
+  height: 500px;
+  background-image: url("/src/images/bg.jpg") ;
+  /* background-size: cover;
+  background-position: center center;
+  background-position: 0 0;
+  background-repeat: no-repeat; */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+   
+   
+  
+}
+/* @media only screen and (max-width:1440px){
+  .Hero-sec{
+    margin-top: 0%;
+        background-size:1400px;
+  }
+ 
+  
+  } */
+
+/* @media only screen and (max-width:1000px){
+  .Hero-sec{
+    margin-top: -8%;
+        background-size:1000px ;
+  }
+ 
+  
+  } */
+  /* @media only screen and (max-width:850px){
+    .Hero-sec{
+      margin-top: -12%;
+          background-size:850px ;
+    }}
+    @media only screen and (max-width:650px){
+      .Hero-sec{
+        margin-top: -20%;
+            background-size:650px ;
+      }}
+      @media only screen and (max-width:580px){
+        .Hero-sec{
+          margin-top: -25%;
+              background-size:580px ;
+        }}
+     
+      @media only screen and (max-width:460px){
+        .Hero-sec{
+          margin-top: -35%;
+              background-size:460px ;
+        }} */
+        @media only screen and (max-width:375px){
+          .Hero-sec{
+           
+                background-size: cover;
+          }} 
+
+    
+  @media only screen and (max-width:750px){
+    .hostbutton{
+    display: none;
+    }
+    
+    }
+
+    .ant-dropdown{
+      width: 35% !important;
+      font-family: myfont,Helvetica, sans-serif !important;
+      top: 122px !important;
+      padding: 0px !important;
+     
+      
+      
+    }
+    @media only screen and (max-width:750px){
+      .ant-dropdown{
+    display: none;
+      }
+      
+      }
+
+    .ant-dropdown-menu{
+      background-color: #ffff !important;
+      padding-bottom: 15% !important;
+      padding: 0px !important;
+
+    }
+    li{
+      list-style-type: none !important;
+      margin-top: 2.5% !important;
+    }
+    ul:hover{
+      
+      background-color: #414143;
+    }
+   .close-icon{
+    font-size: 25px;
+   }
+   .canvas-list{
+    font-family: myfont !important;
+    font-size: 20px;
+
+   }
+   .canvas-list>li{
+    margin-top: 7% !important;
+    margin-right: 20%;
+   }
+   .ant-drawer-body{
+    padding: 0px !important;
+   }
+ 
+ .sad{
+  width: 90%;
+  background-color: white;
+ border-radius: 50px;
+ padding: 10px;
+  position: absolute;
+  margin-top: 5%;
+  font-family:myfont !important ;
+
+ }
+ label{
+  font-family:myfont !important ;
+  font-weight: 700;
+ }
+ input{
+ width: 90%;
+  border:none;
+ outline: none;
+ 
+  padding-right: 20px !important;
+ }
+ .City-value::placeholder{
+  font-family:myfont !important ;
+  color: gray !important;
+  font-weight: 500;
+  
+ }
+ .second-div{
+  border-left: 1px solid gray;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px !important;
+ }
+ @media only screen and (max-width:750px){
+  .second-div{
+    border-left: none;
+  }
+  .sad{
+    border-radius: 2px;
+  }
+}
+::placeholder{
+  font-family:myfont !important ;
+  color: black !important;
+  font-weight: 600;
+
+}
+.ant-picker{
+  border: none !important;
+}
+.anticon{
+  display: none !important;
+}

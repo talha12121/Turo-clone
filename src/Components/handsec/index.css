@@ -1,0 +1,130 @@
+@font-face {
+    font-family:myfontss;
+    src: url("//src/font/AvenirLTStd-Book.otf");
+   
+  }
+
+.join{
+    position: relative;
+    overflow: hidden;
+    margin-top: 80px;
+    
+  }
+  .join{
+    margin-top: 50px ;
+  }
+  .join2{
+    display: none;
+  }
+  @media (max-width:767px) {
+    .button {
+      display: none;
+    }
+  
+    .main_div {
+      width: 70%;
+      border-radius: 8px !important;
+      height: 170px;
+      display: block;
+  
+    }
+  
+    .btn {
+  
+      width: 100%;
+      outline: none !important;
+      border: none !important;
+      background-color: rgba(89, 60, 251, 1) !important;
+      display: block !important;
+      font-weight: bold !important;
+      color: #FFFFFF !important;
+      cursor: pointer !important;
+    }
+  
+  
+  
+    .svg {
+      display: none;
+    }
+  
+    .img {
+      background-position: 0 -120px !important;
+      height: 490px;
+      background-size: cover;
+    }
+  
+    .both {
+      margin-top: 20px;
+    }
+  
+    .text {
+      font-size: 40px;
+    }
+  
+    .explore {
+      font-size: 18px;
+    }
+    
+   
+    .join{
+      margin-top: 50px ;
+    }
+    .svg3{
+      display: block;
+      position: relative;
+     margin-left: -250px;
+      overflow: hidden;
+      margin-top: 125px;
+    }
+  .book3{
+    position: relative;
+  }
+  .book1{
+    top: 10px !important;
+    left: 50% !important;
+  }
+  .boo1{
+    /* width: 43% !important; */
+    top: 20px;
+    left: 35% !important;
+  }
+  
+  
+  
+  .book1 h3 ,.boo1 h3{
+  /* font-weight: 700; */
+  font-size: 20px !important;
+  }
+  
+  }
+  .book,.boo{
+    width: 50%;
+    margin: 0 auto;
+    font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;;
+  }
+  h3{
+    color: #593CFB;
+    font-weight: bold;
+    font-family: RlBasisGrotesque, Avenir, Helvetica Neue, Helvetica, sans-serif;;
+    
+  }
+
+
+@media (max-width:746px) {
+   .book{
+    position: absolute;
+    margin-top: 5%;
+    left: 20%;
+   }
+    }
+    @media (max-width:445px) {
+        .book{
+         position: absolute;
+         margin-top: 8%;
+         
+        }
+         }
+         .join{
+            margin-top: 10%;
+         }
+         

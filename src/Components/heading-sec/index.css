@@ -1,0 +1,114 @@
+@media only screen and (min-width:750px){
+    .ant-drawer-body,.ant-drawer{
+    display: none !important;
+    }
+    
+    }
+    /* .icon{
+        font-family: myfont !important;
+        letter-spacing: 100px;
+        cursor: pointer;
+        font-size: 25px;
+        color: #59595B !important;
+        margin-top:0.8%;
+   
+      }
+      .icon:hover{
+        border-radius: 12px;
+       padding: 5px;
+       padding-top: 0px;
+       padding-bottom: 0px;
+        background-color: #F4F4F4;
+      } */
+      
+      .ant-drawer-close{
+        display: none !important;
+      }
+      @font-face {
+        font-family: headingfont;
+        src: url("/src/font/Hoefler\ Text\ Black.ttf");
+      }
+      .main-heading{
+        font-family: headingfont;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 100px;
+        color: #121214;
+        
+      }
+      @font-face {
+        font-family: myfont ;
+        src: url("//src/font/FontsFree-Net-BasisGrotesquePro-Bold.ttf");
+       
+      }
+    
+      @media only screen and (max-width:768px){
+      .main-heading{
+        font-size:50px ;
+      }
+        
+      }
+      @media only screen and (max-width:400px){
+        .main-heading{
+          font-size:30px ;
+        }
+          
+        }
+     
+      /* .backdiv{
+     
+         width: 80%;
+        margin: 0 auto;
+       text-align: center;
+       font-size: 30px;
+       color: black;
+       font-weight: bold;
+        background-color: #F2E9FF;
+        
+      }  */
+      .sub-heading:before {
+        content: '';
+        background-color: #F2E9FF;
+        position: absolute;
+        height: 70%;
+        width: 80%;
+        
+        max-width: 1400px;
+        z-index: -1;
+        bottom: -12px;
+        left: 10%;
+      
+        top: 52%;
+    }
+   
+      .sub-heading{
+        font-family: myfont ;
+      
+       
+       text-align: center;
+       font-size: 30px;
+       color: black;
+       position: re;
+       font-weight: bold;
+        /* background-color: #F2E9FF; */
+      }
+      
+ 
+
+
+
+      
+      @media only screen and (max-width:870px){
+        .sub-heading{
+          font-size:20px ;
+        }
+          
+        }
+      
+        @media only screen and (max-width:580px){
+          .sub-heading{
+            font-size:12px ;
+          }
+            
+          }
+        

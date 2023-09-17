@@ -1,0 +1,97 @@
+@font-face {
+    font-family: myfont ;
+    src: url("//src/font/FontsFree-Net-BasisGrotesquePro-Bold.ttf");
+    
+  }
+.www{
+    
+    font-family: myfont !important ;
+    width: 90%;
+    margin: 0 auto;
+    
+    margin-top: 20%;
+ font-weight: bold;
+}
+.images-single1{
+    width: 100%;
+    text-align: center;
+}
+.content-div{
+    
+    width: 100%  !important;
+    margin-top: 0 auto !important;
+}
+.image-div{
+    width: 50%;
+    margin: 0 auto;
+}
+.p1{
+    font-size: 30px;
+    font-family: myfont !important ;
+    color: black;
+}
+.p2{
+    font-size: 30px;
+    font-family: myfont !important ;
+    color: #593CFB;
+}
+.description{
+    font-size: 15px;
+    font-family: myfont !important ;
+}
+.browse-button{
+    font-family: myfont !important ;
+    color: white;
+    border: none;
+    background-color: #593CFB;
+    padding:15px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+  
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.img-txt{
+    width: 70%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:1000px){
+    button.slick-arrow.slick-prev{
+      left: 80% !important;
+      top:-20%; 
+    }
+    button.slick-arrow.slick-next{
+        top: -20%;
+    }
+   
+    
+    }
+    @media only screen and (max-width:880px){
+        button.slick-arrow.slick-prev{
+          left: 80% !important;
+          top: -10%; 
+        }
+        button.slick-arrow.slick-next{
+            top: -10%;
+        }
+       
+        
+        }
+        @media only screen and (max-width:480px){
+            button.slick-arrow.slick-prev{
+              left: 70% !important;
+              top:-5%; 
+            }
+            button.slick-arrow.slick-next{
+                top: -5%;
+            }
+           
+            
+            }
